@@ -7,7 +7,7 @@ body{
     font-family: 'Zen Dots';
     display: flex;
     font-size: 25px;
-    padding: 15px;
+    padding-top: 20px;
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -67,29 +67,6 @@ body{
     transform:translate(-50%);
 }
 
-button{
-    position:relative;
-    opacity: 5%;
-}
-
-#projectsBtn{
-    width: 135px;
-    height: 30px;
-    right: 51%;
-}
-
-#aboutMeBtn{
-    width: 153px;
-    height: 30px;
-    right: 51.5%;
-}
-
-#homeBtn{
-    width: 110px;
-    height: 30px;
-    right: 51.5%;
-}
-
 h1{
     font-size: 45px;
     color: black;
@@ -98,6 +75,7 @@ h1{
 #bodyText{
     position:fixed;
     top: 100px;
+    width: 450px;
 }
 
 #notice{
@@ -110,9 +88,30 @@ h1{
     right: 1%;
 }
 
+a{
+    text-decoration: none; /* https://stackoverflow.com/questions/2041388/how-to-remove-the-underline-for-anchorslinks */
+}
+
+a:link{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+a:visited{
+    color: #ffffff;
+}
+
+a:active{
+    color: #ffffff;
+}
+
+
 img{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform:translate(-50%);
 }
